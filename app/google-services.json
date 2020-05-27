@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "123433316863",
+    "firebase_url": "https://feedtheneed21-89802.firebaseio.com",
+    "project_id": "feedtheneed21-89802",
+    "storage_bucket": "feedtheneed21-89802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123433316863:android:0573b45ba6b394c68437ca",
+        "android_client_info": {
+          "package_name": "com.example.feedtheneed21"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123433316863-fb06b1ijurdbiebj169dkppntglm1d0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.feedtheneed21",
+            "certificate_hash": "38059a7b86e604c7ac79b5b5d40d60ca59b444f9"
+          }
+        },
+        {
+          "client_id": "123433316863-diicqin29lq965qi3g06gpfgolgkqmsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.feedtheneed21",
+            "certificate_hash": "d6a4b275c531b3096239b0bb5a5740518cda6023"
+          }
+        },
+        {
+          "client_id": "123433316863-lqcm8jqdp0uuo80b3do2s1vauojkpgfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Onr2DhkizZwCTjN5w41lDpQwbJMetHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123433316863-lqcm8jqdp0uuo80b3do2s1vauojkpgfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

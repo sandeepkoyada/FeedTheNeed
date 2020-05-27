@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food_Details">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:padding="20dp"
+        android:text="please give food details" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginTop="12dp"
+        android:text="vegitarian" />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:layout_marginTop="12dp"
+        android:text="non-vegiterian" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox2"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="enter more details about food"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textAlignment="viewStart"
+        android:hint="enter"
+        android:textSize="20dp"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Edit"
+        android:id="@+id/send"
+        android:text="send_details"
+        android:textSize="20sp"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/send"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:text="next"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="locate me"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        tools:ignore="MissingConstraints"
+        android:onClick="btnCurrentLocation">
+
+    </Button>
+
+</RelativeLayout>
